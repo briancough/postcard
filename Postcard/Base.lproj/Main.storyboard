@@ -101,6 +101,15 @@
                                     <rect key="frame" x="16" y="283" width="279" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sS-Cd-LiZ">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="163" width="42" height="21"/>
+                                </variation>
+                            </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUZ-n5-q7E">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -119,6 +128,7 @@
                                 <exclude reference="26Q-hU-h3p"/>
                                 <exclude reference="gIT-4j-F78"/>
                                 <exclude reference="bbM-8V-Qse"/>
+                                <exclude reference="0sS-Cd-LiZ"/>
                                 <exclude reference="tUZ-n5-q7E"/>
                             </mask>
                         </variation>
@@ -129,6 +139,7 @@
                                 <include reference="26Q-hU-h3p"/>
                                 <include reference="gIT-4j-F78"/>
                                 <include reference="bbM-8V-Qse"/>
+                                <include reference="0sS-Cd-LiZ"/>
                                 <include reference="tUZ-n5-q7E"/>
                             </mask>
                         </variation>
@@ -138,6 +149,7 @@
                         <outlet property="enterNameTextField" destination="wr5-si-0K9" id="2Oc-b0-ARW"/>
                         <outlet property="mailButton" destination="gIT-4j-F78" id="8aj-U7-fEf"/>
                         <outlet property="messageLabel" destination="tUZ-n5-q7E" id="vcN-8G-T1f"/>
+                        <outlet property="nameLabel" destination="0sS-Cd-LiZ" id="ypk-UY-WQ8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
